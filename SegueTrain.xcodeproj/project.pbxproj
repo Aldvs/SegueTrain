@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		8468DBBA279F1C130047EB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBB9279F1C130047EB45 /* AppDelegate.swift */; };
 		8468DBBC279F1C130047EB45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBBB279F1C130047EB45 /* SceneDelegate.swift */; };
-		8468DBBE279F1C130047EB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBBD279F1C130047EB45 /* ViewController.swift */; };
 		8468DBC1279F1C130047EB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468DBBF279F1C130047EB45 /* Main.storyboard */; };
 		8468DBC3279F1C170047EB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8468DBC2279F1C170047EB45 /* Assets.xcassets */; };
 		8468DBC6279F1C170047EB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468DBC4279F1C170047EB45 /* LaunchScreen.storyboard */; };
+		8468DBCE279F1E590047EB45 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBCD279F1E590047EB45 /* AViewController.swift */; };
+		8468DBD0279F1E6D0047EB45 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBCF279F1E6D0047EB45 /* BViewController.swift */; };
+		8468DBD2279F1E8E0047EB45 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468DBD1279F1E8E0047EB45 /* CViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8468DBB6279F1C130047EB45 /* SegueTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8468DBB9279F1C130047EB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8468DBBB279F1C130047EB45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8468DBBD279F1C130047EB45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8468DBC0279F1C130047EB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8468DBC2279F1C170047EB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8468DBC5279F1C170047EB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8468DBC7279F1C170047EB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8468DBCD279F1E590047EB45 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		8468DBCF279F1E6D0047EB45 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		8468DBD1279F1E8E0047EB45 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		8468DBB8279F1C130047EB45 /* SegueTrain */ = {
 			isa = PBXGroup;
 			children = (
-				8468DBB9279F1C130047EB45 /* AppDelegate.swift */,
-				8468DBBB279F1C130047EB45 /* SceneDelegate.swift */,
-				8468DBBD279F1C130047EB45 /* ViewController.swift */,
-				8468DBBF279F1C130047EB45 /* Main.storyboard */,
-				8468DBC2279F1C170047EB45 /* Assets.xcassets */,
-				8468DBC4279F1C170047EB45 /* LaunchScreen.storyboard */,
-				8468DBC7279F1C170047EB45 /* Info.plist */,
+				8468DBD5279F1F050047EB45 /* SupportFiles */,
+				8468DBD6279F1F6E0047EB45 /* ViewControllers */,
+				8468DBD4279F1ECE0047EB45 /* StoryBoards */,
+				8468DBD3279F1EB60047EB45 /* Resources */,
 			);
 			path = SegueTrain;
+			sourceTree = "<group>";
+		};
+		8468DBD3279F1EB60047EB45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8468DBC2279F1C170047EB45 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8468DBD4279F1ECE0047EB45 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8468DBBF279F1C130047EB45 /* Main.storyboard */,
+				8468DBC4279F1C170047EB45 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		8468DBD5279F1F050047EB45 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8468DBB9279F1C130047EB45 /* AppDelegate.swift */,
+				8468DBBB279F1C130047EB45 /* SceneDelegate.swift */,
+				8468DBC7279F1C170047EB45 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		8468DBD6279F1F6E0047EB45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8468DBCD279F1E590047EB45 /* AViewController.swift */,
+				8468DBCF279F1E6D0047EB45 /* BViewController.swift */,
+				8468DBD1279F1E8E0047EB45 /* CViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8468DBBE279F1C130047EB45 /* ViewController.swift in Sources */,
+				8468DBCE279F1E590047EB45 /* AViewController.swift in Sources */,
 				8468DBBA279F1C130047EB45 /* AppDelegate.swift in Sources */,
+				8468DBD0279F1E6D0047EB45 /* BViewController.swift in Sources */,
+				8468DBD2279F1E8E0047EB45 /* CViewController.swift in Sources */,
 				8468DBBC279F1C130047EB45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SegueTrain/Info.plist;
+				INFOPLIST_FILE = SegueTrain/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SegueTrain/Info.plist;
+				INFOPLIST_FILE = SegueTrain/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
