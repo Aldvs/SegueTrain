@@ -26,11 +26,19 @@
                                     <segue destination="XCg-DT-rSJ" kind="show" id="aDJ-sZ-QYl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5a-yz-Lrm">
+                                <rect key="frame" x="196" y="335.5" width="22" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="i6y-cJ-ZYu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ufz-X4-P4O"/>
+                            <constraint firstItem="k5a-yz-Lrm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f6q-IX-veU"/>
+                            <constraint firstItem="i6y-cJ-ZYu" firstAttribute="top" secondItem="k5a-yz-Lrm" secondAttribute="bottom" constant="50" id="lVu-WZ-Ppi"/>
                             <constraint firstItem="i6y-cJ-ZYu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qlB-bp-qmw"/>
                         </constraints>
                     </view>
@@ -58,12 +66,20 @@
                                     <segue destination="06G-ud-bWP" kind="show" id="r84-mC-glt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-tc-Oow">
+                                <rect key="frame" x="196.5" y="335.5" width="21" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3ex-Qi-EeE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="upX-Us-dG3" firstAttribute="centerY" secondItem="PO7-hD-500" secondAttribute="centerY" id="FA1-fb-SED"/>
+                            <constraint firstItem="HF1-tc-Oow" firstAttribute="centerX" secondItem="PO7-hD-500" secondAttribute="centerX" id="KyS-U2-EsE"/>
                             <constraint firstItem="upX-Us-dG3" firstAttribute="centerX" secondItem="PO7-hD-500" secondAttribute="centerX" id="hLi-eh-jrN"/>
+                            <constraint firstItem="upX-Us-dG3" firstAttribute="top" secondItem="HF1-tc-Oow" secondAttribute="bottom" constant="50" id="luG-bs-SdU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eZB-Kn-1os"/>
@@ -87,12 +103,20 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD1-Gx-mjD">
+                                <rect key="frame" x="195" y="335.5" width="24" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="him-DE-zgo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="4Mj-Hw-sBF" firstAttribute="centerY" secondItem="r4r-Ys-XCc" secondAttribute="centerY" id="8bu-mR-t5a"/>
+                            <constraint firstItem="PD1-Gx-mjD" firstAttribute="centerX" secondItem="r4r-Ys-XCc" secondAttribute="centerX" id="IiE-CJ-TOy"/>
                             <constraint firstItem="4Mj-Hw-sBF" firstAttribute="centerX" secondItem="r4r-Ys-XCc" secondAttribute="centerX" id="jG9-Av-RqL"/>
+                            <constraint firstItem="4Mj-Hw-sBF" firstAttribute="top" secondItem="PD1-Gx-mjD" secondAttribute="bottom" constant="50" id="vsd-Tv-DHw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="A1p-ks-xO2"/>
