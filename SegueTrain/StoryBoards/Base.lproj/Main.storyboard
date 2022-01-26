@@ -102,6 +102,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Go to A">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Mlr-72-Yjd" kind="unwind" unwindAction="unwindSegueWithSegue:" id="mPd-1E-yQF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD1-Gx-mjD">
                                 <rect key="frame" x="195" y="335.5" width="24" height="41"/>
@@ -122,6 +125,7 @@
                     <navigationItem key="navigationItem" id="A1p-ks-xO2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VGA-iG-8AB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Mlr-72-Yjd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2599" y="84"/>
         </scene>
